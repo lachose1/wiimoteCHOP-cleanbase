@@ -16,11 +16,11 @@
 #### Small bio
 I am a creative coder from Montreal.
 
-I cofounded [Ottomata](http://ottomata.com) studio 2 years ago but have been working in the interactive media domain for the past 4 years.
+I cofounded [Ottomata](http://ottomata.com) studio in 2017 but have been working in the interactive media domain since 2016.
 
 Before working in interactive media I have been a lead developer in a couple of startups.
 
-I have been programming since I am 12 years old so I know a lot of different languages.
+I started programming at 12 and have a background in electrical engineering which helps a lot when you are playing with new gadgets.
 
 ### About this workshop
 As we all know, TouchDesigner is a very powerful tool for interactive/media art. I consider it as a central hub to control many inputs and dispatch interactive content to many outputs. However, there will come a time where you will probably need to implement a new tool or detector that insn't natively supported in TouchDesigner and this is why being able to use the powerful C++ Custom OPs is a must. Today, we only have 3:30 which means we will only have the time to focus and go in-depth on the custom CHOP subject, but using the workflow I will present you today, you should be able to understand most of the other OPs by yourself.
