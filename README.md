@@ -180,6 +180,7 @@ for (int j = 0; j < output->numSamples; j++)
 </details>
 
 #### Step 4 : handling multiple inputs
+![](https://i.imgur.com/uCNKDeB.png)
 This logic works well, but as you might have noticed, it only works for the first input connected to the CHOP. The rest of the inputs are being ignored. Let's go ahead and try to fix that. Don’t forget to modify the `::getOutputInfo()` to output the correct number of chans.
 
 <details><summary>Click to show solution</summary>
