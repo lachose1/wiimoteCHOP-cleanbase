@@ -160,12 +160,12 @@ Now that the toggle exists, let's go ahead and modify what we output based on th
 <p>
 
 ```cpp
-float total = 0;
 const OP_CHOPInput* cinput = inputs->getInputCHOP(0);
 int numChans = cinput->numChannels;
 int ind = 0;
 for (int j = 0; j < output->numSamples; j++)
 {
+    float total = 0;
     for (int i = 0; i < numChans; i++)
     {
         total += float(cinput->getChannelData(i)[ind] * scale);
